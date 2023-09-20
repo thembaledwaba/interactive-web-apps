@@ -1,7 +1,10 @@
-const nwabisa = 'CEO,'
-const johannes = 'Intern,'
-const alex = 'Head of Marketing'
+//const nwabisa = 'CEO,'
+//const johannes = 'Intern,'
+//const alex = 'Head of Marketing'
 
-
+import { role as nwabisa } from './nwabisa.js'
+import { role as johannes } from './johannes.js'
+import { role as alex } from './alex.js'
 
 console.log('Roles:', nwabisa, johannes, alex)
+
