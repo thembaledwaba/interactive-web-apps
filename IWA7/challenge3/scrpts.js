@@ -13,7 +13,7 @@ const divider = '----------------------------------'
 const owed = (-leoBalance + -sarahBalance).toFixed(2);
 const leo = leoName +' ' + leoSurname + ("Owed R" + (-leoBalance).toFixed(2));
 const sarah = sarahName + sarahSurname + ("Owed R" + (-sarahBalance ).toFixed(2));
-const total = `Total amount owed: R${owed}`;
-const result = `${leo}\n${sarah}\n${divider}\n${divider}\n${total}\n${divider}`;
+const total = "   " + `Total amount owed: R${owed}`;
+const result = `${leo}\n${sarah}\n\n${divider}\n${total}\n${divider}`;
 
 console.log(result);
