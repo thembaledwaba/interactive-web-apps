@@ -26,7 +26,7 @@ const leo = {
 };
 
 const sarah = {
-	name: sarahName + sarahSurname,
+	name: sarahName.trim() + " " + sarahSurname,
 	age: 62,
 	access_id: '6b279ae5-5657-4240-80e9-23-f6b635f7a8',
 	balance: 'R' + -sarahBalance,
