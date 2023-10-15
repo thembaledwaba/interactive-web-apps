@@ -12,4 +12,4 @@ console.warn(warning)
 /** It is important to let user know when they can close the page */
 const message = "Please wait for scan to complete before closing the browser"
 
-console.info(message)
+console.info(message);
