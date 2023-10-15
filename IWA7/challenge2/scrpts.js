@@ -1,5 +1,5 @@
-const nickname= null;
-const firstname = null;
+const nickname= "Timmy";
+const firstname = "Timothy";
 const greeting = nickname || firstname;
 
 // if(nickname === "Timmy" || firstname === "Timothy"){
