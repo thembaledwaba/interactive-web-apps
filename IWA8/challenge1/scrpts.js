@@ -15,9 +15,9 @@ const sarahPostal = '0310'
 
 const leo = {
 	name: leoName,
+    age: 24,
 	balance: 'R' + -leoBalance,
 	access_id: '47afb389-8014-4d0b-aff3-e40203d2107f',
-	age: 24,
 	leoAddress: {
 		number: leoNumber,
 		street: leoStreet,
@@ -28,8 +28,8 @@ const leo = {
 const sarah = {
 	name: sarahName.trim() + " " + sarahSurname,
 	age: 62,
+    balance: 'R' + -sarahBalance,
 	access_id: '6b279ae5-5657-4240-80e9-23-f6b635f7a8',
-	balance: 'R' + -sarahBalance,
 	sarahAddress: {
      sarahStreetNumber: sarahNumber,
 		sarahStreetName: sarahStreet,
