@@ -1,5 +1,10 @@
-const nickname = "Timmy";
+const nickname= "Timmy";
 const firstname = "Timothy";
 const greeting = nickname || firstname
 
-console.log(`Good Morning ${greeting}!`)
+if(nickname === "Timmy" || firstname === "Timothy"){
+console.log(`Good Morning, ${greeting}!`)
+}
+else{
+console.log(`Good Morning!`)	
+}
